@@ -125,3 +125,89 @@ hr{
 .donation-part img{
     margin-bottom: 20px;;
 }
+.lives-depend{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    gap: 30px;
+    margin: 100px  150px 50px;    
+    
+}
+
+.lives-depend .lives{
+   width: 500px;
+   
+}
+
+.lives-depend .lives .lives-title{
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+
+
+
+.lives-depend .image{
+    width: 400px;
+    height: 400px;
+    background-size: cover;
+    border-radius: 10px;
+    padding-right: 30px;
+
+}
+
+.lives-depend .image img{
+    border-radius: 2%;
+}
+
+.need-us{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.my-update{
+    text-align: center;
+}
+
+.email{
+    width: 600px;
+    height: 200px;
+    background-color: #e09fc3;
+    text-align: center;
+    margin: 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type=text]{
+    background-color: rgb(235, 231, 231);
+    border-radius: 5px 0 0 5px;
+}
+
+input[type=submit]{
+    background-color: #711A75;
+    border-radius: 0 5px 5px 0 ;
+    padding:  10px;
+}
+
+.holder{
+    display: flex;
+}
+
+.humble{
+    height: 200px;
+    background-color: #180A0A;
+    color:#711A75;
+    text-align: center;
+    align-items: center;
+}
+
+.humble-desc{
+    color: #ffffff;
+}
+
+.humble-title{
+    padding-top: 5%;
+    font-family: 'Purple Smile', sans-serif;
+}
